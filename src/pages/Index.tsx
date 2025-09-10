@@ -147,6 +147,10 @@ const Index = () => {
               <Icon name="Bell" className="h-4 w-4 mr-2" />
               Уведомления
             </Button>
+            <Button variant="outline" size="sm" onClick={() => window.open('/client', '_blank')}>
+              <Icon name="User" className="h-4 w-4 mr-2" />
+              Портал клиентов
+            </Button>
             <Button size="sm">
               <Icon name="Plus" className="h-4 w-4 mr-2" />
               Новое дело
